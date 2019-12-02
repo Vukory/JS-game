@@ -204,6 +204,12 @@ body {
     transform: scale(1.1);
 }
 
+.mascot-start {
+    width: 700px;
+    position: relative;
+    top: 180px;
+}
+
 @media (max-width:600px) {
     .game-container {
         grid-template-columns: repeat(2, auto);
