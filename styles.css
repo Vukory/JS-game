@@ -122,8 +122,7 @@ body {
     }
 }
 
-
-/* .card.matched .card-value {
+.card.matched .card-value {
     animation: tilt 2s linear infinite 500ms;
 }
 
@@ -138,7 +137,7 @@ body {
     75% {
         transform: rotate(10deg);
     }
-} */
+}
 
 .card-back {
     border-color: #aaccffff;
