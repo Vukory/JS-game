@@ -50,7 +50,7 @@ class mixOrMatch {
         }
         /*if the card is already flipped (matched)
         an animation is happening
-        if the card that's flipped is already card to chech it shouldn't be clicked*/
+        if the card that's flipped is already card to check it shouldn't be clicked*/
     canFlipCard(card) {
         return true;
         // return (!this.busy && !this.matchedCards.includes(card) && card !== this.cardToCheck);
@@ -70,7 +70,7 @@ function ready() {
     });
     cards.forEach(card => {
         card.addEventListener('click', () => {
-            game.flipCard();
+            game.flipCard(card);
         });
     });
 }

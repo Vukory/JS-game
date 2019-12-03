@@ -15,6 +15,7 @@
 html {
     min-height: 100vh;
     cursor: url("Assets/Cursors/paw.png"), auto;
+    user-select: none;
 }
 
 body {
