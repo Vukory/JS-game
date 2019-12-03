@@ -38,6 +38,20 @@ body {
     justify-content: space-between;
 }
 
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mascot {
+    margin-left: 50px;
+}
+
+.elypia-chan-mascot {
+    width: 500px;
+}
+
 .game-container {
     display: grid;
     margin: 20px;
