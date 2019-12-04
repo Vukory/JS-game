@@ -16,7 +16,6 @@ html {
     min-height: 100vh;
     cursor: url("Assets/Cursors/paw.png"), auto;
     user-select: none;
-    overflow: hidden;
 }
 
 body {
@@ -45,9 +44,21 @@ body {
     justify-content: center;
 }
 
+.message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tablet-img {
+    margin-top: 2em;
+    width: 300px;
+}
+
 #matched-message-container {
     height: 400px;
-    margin: 0 5em 0 5em;
+    margin: 0 2em 0 5em;
     border: 3px solid #2984da;
     border-radius: 10px;
     padding: 1em;
