@@ -45,7 +45,7 @@ body {
     justify-content: center;
 }
 
-.matched-message-container {
+#matched-message-container {
     height: 400px;
     margin: 0 5em 0 5em;
     border: 3px solid #2984da;
@@ -57,9 +57,20 @@ body {
     display: none;
 }
 
-.matched-message-container.visible {
+.message {
+    display: none;
+}
+
+.intro-message {
+    display: flex;
+    align-items: center;
+}
+
+#matched-message-container.visible {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     animation: appear 300ms forwards;
 }
 
@@ -70,7 +81,7 @@ body {
         font-size: 0px;
     }
     to {
-        font-size: 1.2em;
+        font-size: 1.3em;
         width: 300px;
         background-color: #0916419c;
     }
